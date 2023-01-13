@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <script src="cities.js"></script>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="heading">
+            <p class="reg">Registration</p>
+        </div>
+
+        <div>
+           
+            <div class="elements" >
+                <table class="table">
+                    <tr>
+                        <td class="text-shadow">Name</td>
+                        <td>:</td>
+                        <td >
+                            <input type="text" name="name" id="name">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="text-shadow">Gender</td>
+                        <td >:</td>
+                        
+                        
+                        <td>  
+                            <select name="gender" id="gender" >
+                                <option value=""  disabled selected hidden>Gender</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            
+                        </td>
+
+
+                        
+                        
+
+                    </tr>
+
+                    <tr>
+                        <td class="text-shadow">Date Of Birth</td>
+                        <td>:</td>
+                        <td><input type="date" id="date" name="date"></td>
+
+                    </tr>
+
+                    <tr>
+                        <td class="text-shadow">Weight <span style="font-size: 15px;">(in kg)</span></td>
+                        <td>:</td>
+                        <td><input type="text" name="weight" id="weight"></td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td class="text-shadow">
+                            State
+                        </td>
+
+                        <td>:</td>
+                        
+                        <td>
+                            <select onchange="print_city('state', this.selectedIndex);" id="sts" name ="stt" class="form-control" required></select><br>
+                        </td>
+
+                    </tr>
+                    
+                    <tr>
+                        <td class="text-shadow">City</td>
+                        <td>:</td>
+                        <td>
+                            
+                        <select id ="state" class="form-control" required></select>
+                        <script language="javascript">print_state("sts");</script>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="text-shadow">Telephone</td>
+                        <td>:</td>
+                        <td><input type="text"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="text-shadow">Address</td>
+                        <td>:</td>
+                        <td><input type="text"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="text-shadow">Email</td>
+                        <td>:</td>
+                        <td><input type="email"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="text-shadow">Last Donaton Date</td>
+                        <td>:</td>
+                        <td><input type="date"></td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>:</td>
+                        <td><input type="checkbox"> Tick here to Agree and then Submit</td>
+                    </tr>
+
+                    
+                    
+                </table>
+
+                <div>
+                    <p class="declaretion">
+                        I here by declare that information furnished above is true to the best to my knowledge & I am willing to disclose my mobile/phone no. if any of the
+                        above information is found to be wrong, I will be solely respnsible for anything resulting out of it and any loss or damage sustained to the 
+                        Government or any other person or agency.
+                    </p>
+                </div>
+
+                <div class="submit">
+
+                    <a href="prototype.html"><input  class="btn" type="submit" onclick="alert('Form Submitted')"></a>
+                    
+                    <input class="btn" value="reset" type="reset">   .
+                                 
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

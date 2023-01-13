@@ -1,0 +1,100 @@
+body{
+    font-size: 25px;
+    background-color: rgba(174, 229, 244, 0.941);
+    
+    background-size: cover;
+    color: rgb(45, 6, 123);   
+}
+
+
+
+
+/* layout */
+
+.container{
+    border:2px solid rgba(0, 0, 0, 0.032);
+    width: 5px solid rgb(239, 239, 207);
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:rgba(248, 250, 222, 0.927);
+    display: block;
+    margin-left: auto;
+    margin-right:auto ;
+}
+
+.heading{
+    margin-top: 0px;
+    border:2px solid rgb(234, 231, 231);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:56%;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgba(245, 245, 167, 0.815);
+    padding-left: 450px;
+}
+
+.reg{
+    margin-top: 6px;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+.elements{
+
+    margin-top: 30px;  
+}
+
+.text-shadow{
+   
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+
+
+
+
+
+.table{
+    display: flex;
+    justify-content: center;
+    border:0px;
+    border-color: white ;
+    border-style: solid;
+    width:auto;
+    font-family:monospace;
+}
+
+
+
+
+.declaretion{
+
+    width:70%;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 150px;
+
+}
+
+.submit{
+    margin-left: 400px;
+    
+}
+.btn{
+    background-color:aqua;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:100px;
+    height:30px;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
+}
+
+.btn:hover{
+    background-color: aquamarine;
+    transform: scale(0.9);
+}
